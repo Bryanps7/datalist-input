@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>datalist com input</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cardápio</h1>
+        <hr>
+        <label>
+            Insira oque você quer: <br>
+            <input id="input" list="comida">
+
+            <datalist id="comida">
+                
+            </datalist>
+        </label>
+        <hr>
+        <button onclick="escolha()">Ver oque eu escolhi</button>
+        <hr>
+        <div id="res"></div>
+    </div>
+</body>
+</html>
